@@ -53,7 +53,7 @@ export default function AdminHeader() {
                                 <a href='/'>
 
                                     <img
-                                        className="h-8 ml-4"
+                                        className="h-16  w-auto ml-4"
                                         src="/logo.png"
                                         alt="applogo"
                                     />

@@ -178,6 +178,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import Footer from "../../components/Footer.jsx";
+import Wishlist from '../wishlist/Wishlist.jsx';  
 
 export default function Home() {
 
@@ -351,6 +353,7 @@ export default function Home() {
                     </section>
                 </SwiperSlide>
             </Swiper>
+            
 
             {/* CTA */}
             <div className="mx-auto max-w-7xl w-full flex justify-center items-center py-12 px-4 sm:px-6 2xl:px-0">
@@ -378,22 +381,23 @@ export default function Home() {
 
                     <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-5 xl:space-x-8 space-y-4 sm:space-y-0">
                         <div>
-                            <img className="hidden lg:block object-cover w-full h-52 transition-transform duration-500 transform hover:scale-110" src="/images/real-estate/category1.png" alt="property-img" />
+                            <img className="hidden lg:block object-cover w-full h-52 transition-transform duration-500 transform hover:scale-110" src="/src/assets/images/property1.jpg" alt="property1-img" />
                             <img className="w-80 sm:w-auto lg:hidden h-52" src="src/assets/images/property1.jpg" alt="property1-img" />
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-4 sm:space-y-0 lg:space-y-5 xl:space-y-8">
                             <div>
-                                <img className="hidden lg:block h-52" src="/images/real-estate/category2.png" alt="property-img" />
+                                <img className="hidden lg:block h-52" src="src/assets/images/property2.jpg" alt="property2-img" />
                                 <img className="w-80 sm:w-auto lg:hidden h-52" src="src/assets/images/property2.jpg" alt="property2-img" />
                             </div>
                             <div>
-                                <img className="hidden lg:block h-52" src="/images/real-estate/category3.png" alt="property-img" />
+                                <img className="hidden lg:block h-52" src="src/assets/images/property3.jpg" alt="property3-img" />
                                 <img className="w-80 sm:w-auto lg:hidden h-52" src="src/assets/images/property3.jpg" alt="property3-img" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <Footer />
 
         </div>
     )
