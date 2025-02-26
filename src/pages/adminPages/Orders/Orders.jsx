@@ -162,7 +162,7 @@ function Orders() {
                             <th className='p-3'>Email</th>
                             <th className='p-3'>Cart #</th>
                             <th className='p-3'>Property</th>
-                            <th className='p-3'>Quantity</th>
+                            
                             <th className='p-3'>Status</th>
                             <th className='p-3'>Total Price</th>
                             <th className='p-3'>Actions</th>
@@ -184,7 +184,7 @@ function Orders() {
                                         <td className='p-3'>{value?.cart?.user_id?.email}</td>
                                         <td className='p-3'>{value?.cart?.cart_no}</td>
                                         <td className='p-3'>{value?.item?.name}</td>
-                                        <td className='p-3'>{value?.quantity}</td>
+                                        
                                         <td className='p-3'>{value?.status}</td>
                                         <td className='p-3'>Rs. {value?.cart?.grand_total}</td>
                                         <td className='p-3 flex gap-2 flex-wrap max-w-fit'>
