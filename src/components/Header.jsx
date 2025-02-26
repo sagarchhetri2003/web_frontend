@@ -152,13 +152,13 @@ const Header = () => {
                         </div>
                     </div>
                     <a href="/" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Athlete Fuel</span>
-                        <img
-                            className="h-20 w-auto"
-                            src="/logo.png"
-                            alt="applogo"
-                        />
-                    </a>
+    <span className="sr-only">Afnai Real Estate</span>
+    <img
+        className="h-32 w-32" // Increased height from h-20 to h-32
+        src="/logo.png"
+        alt="applogo"
+    />
+</a>
                     <div className="flex lg:hidden">
                         <button
                             type="button"
