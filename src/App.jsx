@@ -24,6 +24,8 @@ import Orders from './pages/adminPages/Orders/Orders';
 import AdminHeader from './components/AdminComponents/AdminHeader';
 import AdminContact from './pages/adminPages/Contact/AdminContact';
 import Property from './pages/adminPages/Product/Property';
+import ResetPasswordRequest from "./pages/ ResetPasswordRequest";
+import ResetPassword from "./pages/ResetPassword";
 
 function App() {
 
@@ -45,6 +47,9 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               {/* <Route path="/contact" element={<Contact />} /> */}
               <Route path="/about" element={<About />} />
+
+              <Route path="/reset-password-request" element={<ResetPasswordRequest />} />
+              <Route path="/reset-password" element={<ResetPassword />} />
 
               {/* <Route path="/cartpage" element={<Cartpage />} /> */}
 

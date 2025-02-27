@@ -39,7 +39,7 @@ export default function AdminHeader() {
         localStorage.removeItem("_hw_userDetails");
 
         setTimeout(() => {
-            window.location.href = "/login"
+            window.location.href = "/signup"
         }, 400)
     };
 
