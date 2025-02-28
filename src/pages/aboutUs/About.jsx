@@ -141,7 +141,7 @@ function About() {
                 </div>
                 <div className="mb-6 text-lg leading-7">
                     <h2 className="text-xl font-semibold">Join Us Today</h2>
-                    <p>Whether you're looking to buy your first home, expand your investment portfolio, or explore new property opportunities, let <strong>Afnai Real Estate</strong> be your go-to guide. Join our community of property enthusiasts today and experience the future of real estate transactions.</p>
+                    <p>Whether you are looking to buy your first home, expand your investment portfolio, or explore new property opportunities, let <strong>Afnai Real Estate</strong> be your go-to guide. Join our community of property enthusiasts today and experience the future of real estate transactions.</p>
                 </div>
             </div>
         </section>
