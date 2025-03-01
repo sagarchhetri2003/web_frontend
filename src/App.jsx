@@ -48,8 +48,10 @@ function App() {
               {/* <Route path="/contact" element={<Contact />} /> */}
               <Route path="/about" element={<About />} />
 
-              <Route path="/reset-password-request" element={<ResetPasswordRequest />} />
+              <Route path="/forgot-password" element={<ResetPasswordRequest />} />
               <Route path="/reset-password" element={<ResetPassword />} />
+            
+
 
               {/* <Route path="/cartpage" element={<Cartpage />} /> */}
 

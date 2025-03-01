@@ -16,4 +16,3 @@ test.describe('Profile Page Tests', () => {
     }
   });
 });
-gt
