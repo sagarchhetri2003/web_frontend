@@ -24,8 +24,8 @@ import Orders from './pages/adminPages/Orders/Orders';
 import AdminHeader from './components/AdminComponents/AdminHeader';
 import AdminContact from './pages/adminPages/Contact/AdminContact';
 import Property from './pages/adminPages/Product/Property';
-import ResetPasswordRequest from "./pages/ ResetPasswordRequest";
-import ResetPassword from "./pages/ResetPassword";
+import ResetPasswordRequest from "./pages/ResetPassword/ ResetPasswordRequest";
+import ResetPassword from "./pages/ResetPassword/ResetPassword";
 
 function App() {
 
