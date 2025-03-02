@@ -467,8 +467,8 @@ function Orders() {
 
     // Dummy Orders
     const [dummyOrders, setDummyOrders] = useState([
-        { id: 1, customerName: "John Doe", contact: "9876543210", email: "john@example.com", cartNo: "A123", property: "3BHK Apartment", status: "Pending", totalPrice: "Rs. 1,500,000" },
-        { id: 2, customerName: "Sarah Johnson", contact: "9812345678", email: "sarah@example.com", cartNo: "B234", property: "Luxury Villa", status: "Delivered", totalPrice: "Rs. 4,200,000" }
+        { id: 1, customerName: "Sagar Adhikari", contact: "9876543210", email: "sagarkshetri0000@gmail.com", cartNo: "A123", property: "Elegant Living Room with Dining Area", status: "Pending", totalPrice: "Rs. 2100000" },
+        { id: 2, customerName: "Anjali Shrestha", contact: "9812345678", email: "anjali@gmail.com", cartNo: "B234", property: "Luxury Villa", status: "Delivered", totalPrice: "Rs. 4,200,000" }
     ])
 
     const getAllOrders = async () => {
